@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Павел Виноградов](https://up.htmlacademy.ru/adaptive/12/user/204160).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Мишагин](https://up.htmlacademy.ru/adaptive/12/user/118967).
 
 ---
 
