@@ -10,10 +10,10 @@
 
   <header class="page-header">
     <nav class="main-nav">
-      <a href="index.html" class="main-nav__logo">
-        <img src="//placehold.it/102x83" alt="Логотип" class="main-nav__logo-image" width="102" height="83">
+      <a class="main-nav__logo">
+        <img class="main-nav__logo logo" src="//placehold.it/102x83" alt="Логотип" width="102" height="83">
       </a>
-      <button class="main-nav__toggle" type="button">
+      <button class="main-nav__toggle button" type="button">
         Открыть меню
       </button>
       <ul class="main-nav__list site-list">
@@ -31,60 +31,61 @@
         </li>
       </ul>
     </nav>
-  </header>
-  <main class="main-conteiner">
     <section class="intro">
       <h1 class="visually-hidden">Путешествие в США, город Седона</h1>
       <p class="intro__text"><span class="intro__text text-color-blue ">Welcome</span> <span class="intro__text text-color-brown">to gorgeus</span> Sedona </p>
       <blockquote class="intro__text">"Becouse the Grand Canyon sucks!"</blockquote>
     </section>
+  </header>
+  <main class="main-conteiner">
     <section class="advantages">
       <h2 class="visually-hidden">Приемущества Седона</h2>
-      <p class="advantages__text"> <b>Седона — небольшой городок в Аризоне, заслуживающий большего!</b> </p>
-      <p class="advantages__text">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
-      <ul class="advantages__list">
-        <li class="advantages__item">
-          <h3 class="advantages__item-title">Настоящий городок</h3>
+      <p class="advantages__subtitle"> <b>Седона — небольшой городок в Аризоне, заслуживающий большего!</b></p>
+      <p class="advantages__subtitle">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
+      <ul class="advantages__list feature">
+        <li class="feature__item">
+          <h3 class="feature__item-title">Настоящий городок</h3>
           №1 Седона не аттракцион для туристов, там течет своя жизнь
-          <img src="//placehold.it/320x260" alt="Дом шерифа города Седона" width="320" height="260" class="advantages__photo">
-          <ul class="advantages__details-list">
-            <li class="advantages__details-item-title">
-              <h4 class="advantages__details-item-title">Жилье</h4>
+          <img class="feature__photo" src="//placehold.it/320x260" alt="Дом шерифа города Седона" width="320" height="260">
+          <ul class="feature__details-list">
+            <li class="feature__details-item">
+              <h4 class="feature__details-item-title">Жилье</h4>
               Рекомендуем пожить в настоящем мотеле, все как в кино!
             </li>
-            <li class="advantages__details-item">
-              <h4 class="advantages__details-item-title">Сувениры</h4>
+            <li class="feature__details-item">
+              <h4 class="feature__details-item-title">Сувениры</h4>
               Не только китайского, но и местного производства!
             </li>
-            <li class="advantages__details-item">
-              <h4 class="advantages__details-item-title">Еда</h4>
+            <li class="feature__details-item">
+              <h4 class="feature__details-item-title">Еда</h4>
               Всегда заказывайте фирменный бургер, вы не разочаруетесь!
             </li>
           </ul>
         </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-title">Там есть Мост Дьявола</h3>
+        <li class="feature__item">
+          <h3 class="feature__item-title">Там есть Мост Дьявола</h3>
           №2 Да, по нему можно пройти! Если вы осмелитесь, конечно
-          <img src="//placehold.it/320x260" alt="Вид с Моста Дьявола" width="320" height="260" class="advantages__photo">
+          <img class="feature__photo" src="//placehold.it/320x260" alt="Вид с Моста Дьявола" width="320" height="260">
         </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-title">Небольшая площадь</h3>
+        <li class="feature__item">
+          <h3 class="feature__item-title">Небольшая площадь</h3>
           №3 Все интересные места находятся очень близко
         </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-title">Красивая дорога</h3>
+        <li class="feature__item">
+          <h3 class="feature__item-title">Красивая дорога</h3>
           №4 Ехать в седону из Лас-Вегаса совсем не скучно!
         </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-title">Мало туристов</h3>
+        <li class="feature__item">
+          <h3 class="feature__item-title">Мало туристов</h3>
           №5 Большинство едет в гранд каньон и толпится там
         </li>
       </ul>
     </section>
     <section class="service-offer">
       <h2 class="visually-hidden">Поможем забронироватьномер в отеле</h2>
-      <p class="service-offer-text"><strong>Заинтересовались?</strong>
-      Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <p class="service-offer-text"><strong>Заинтересовались?</strong><br>
+      Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне
+      </p>
       <a href="offer.html" class="service-offer-button button">Найти гостиницу </a>
     </section>
     <section class="map">
@@ -95,9 +96,15 @@
   <footer class="main-footer">
     <h3 class="main-footer__title">#visitsedona</h3>
     <ul class="main-footer__socials">
-      <li class="main-footer__socials-btn"><a href="https://Twitter.com"><span class="visually-hidden">Twitter</span></a></li>
-      <li class="main-footer__socials-btn"><a href="https://Facebook.com"><span class="visually-hidden">Facebook</span></a></li>
-      <li class="main-footer__socials-btn"><a href="https://Youtube.com"><span class="visually-hidden">Youtube</span></a></li>
+      <li class="main-footer__socials-btn">
+        <a href="https://Twitter.com"><span class="visually-hidden">Twitter</span></a>
+      </li>
+      <li class="main-footer__socials-btn">
+        <a href="https://Facebook.com"><span class="visually-hidden">Facebook</span></a>
+      </li>
+      <li class="main-footer__socials-btn">
+        <a href="https://Youtube.com"><span class="visually-hidden">Youtube</span></a>
+      </li>
     </ul>
     <p class="main-footer__developerment">Разработано
       <a href="https://htmlacademy.ru/intensive/adaptive"><span class="visually-hidden">html accademy</span></a>
