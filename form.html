@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body>
+
+  <header class="page-header">
+    <nav class="main-nav">
+      <a href="index.html" class="main-nav__logo logo">
+          <img class="logo__image" src="//placehold.it/102x83" alt="Логотип" width="102" height="83">
+        </a>
+      <button class="main-nav__toggle" type="button">
+          Открыть меню
+        </button>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--active">
+          <a href="index.html">Главная</a>
+        </li>
+        <li class="site-list__item">
+          <a href="photo.html"> Фото и видео</a>
+        </li>
+        <li class="site-list__item">
+          <a>Форма отзыва</a>
+        </li>
+        <li class="site-list__item">
+          <a href="https://htmlacademy.ru/intensive/adaptive">Html academy</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="intro">
+      <h1 class="visually-hidden">Форма отзыва о путешествии</h1>
+      <p class="intro__headline"> Sedona </p>
+    </section>
+  </header>
+  <main class="page-main">
+    <h2 class="page-main__hleadline">Оставьте свой отзыв</h2>
+    <p class="page-main__description">
+      Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
+    </p>
+    <form class="page-main__form form" action="https://echo.htmlacademy.ru" method="post">
+      <fieldset class="form__fieldset user-info">
+        <legend class="user-info__caption">Представьтесь:</legend>
+        <label class="user-info__label" for="first-name">Имя*:</label>
+        <input class="user-info__input-text" type="text" name="first-name" id="first-name" autocomplete="on" placeholder="Петр" autofocus required>
+        <label class="user-info__label" for="last-name">Фамилия*:</label>
+        <input class="user-info__input-text" type="text" name="last-name" id="last-name" autocomplete="on" placeholder="Иванов" required>
+        <label class="user-info__label" for="middle-name">Отчество</label>
+        <input class="user-info__input-text" type="text" name="middle-name" id="middle-name" autocomplete="off" placeholder="Александрович">
+      </fieldset>
+      <fieldset class="form__fieldset user-info">
+        <legend class="user-info__caption">Контактная информация:</legend>
+        <label class="user-info__label" for="tel">Контактный телефон*:</label>
+        <input class="user-info__input-tel" type="tel" name="tel" id="tel" autocomplete="on" placeholder="Введите телефон" required>
+        <label class="user-info__label" for="email">Электронная почта*:</label>
+        <input class="user-info__input-email" type="email" name="email" id="email" autocomplete="on" placeholder="Введите e-mail" required>
+      </fieldset>
+      <fieldset class="form__fieldset impression">
+        <legend class="impression__caption">Ваше общее впечатление:</legend>
+        <input class="impression__input-radio" type="radio" name="impression" id="good" value="good" checked>
+        <label class="impression__label" for="good">Скорее положительное</label>
+        <input class="impression__input-radio" type="radio" name="impression" id="bad" value="bad">
+        <label class="impression__label" for="bad">Скорее отрицательное</label>
+        <input class="impression__input-radio" type="radio" name="impression" id="so-so" value="so-so">
+        <label class="impression__label" for="so-so">Затрудняюсь ответить</label>
+      </fieldset>
+      <fieldset class="form__fieldset attractions">
+        <legend class="attractions__caption">Посещенные достопримечательности:</legend>
+        <input class="attractions__input-checkbox" type="checkbox" name="devil's-bridge" id="devil's-bridge" checked>
+        <label class="attractions__label" for="devil's-bridge">Мост Дьявола</label>
+        <input class="attractions__input-checkbox" type="checkbox" name="slide-park" id="slide-park" checked>
+        <label class="attractions__label" for="slide-park">Слайд парк</label>
+        <input class="attractions__input-checkbox" type="checkbox" name="bell-rock" id="bell-rock">
+        <label class="attractions__label" for="bell-rock">Гора Колокол</label>
+        <input class="attractions__input-checkbox" type="checkbox" name="red-rocks" id="red-rocks" checked>
+        <label class="attractions__label" for="red-rocks">Красные скалы</label>
+      </fieldset>
+      <fieldset class="form__fieldset message">
+        <legend class="form__fieldset-caption">Опишите свои эмоции:</legend>
+        <textarea class="message__field" name="message" id="message" cols="30" rows="10">Опишите подробно все свои восторги </textarea>
+      </fieldset>
+      <button class="form-button button" type="submit">Отправить отзыв</button>
+    </form>
+  </main>
+    <footer class="main-footer">
+    <h3 class="main-footer__title"><a class="main-footer__hashtag" href="https://www.instagram.com">#visitsedona</a></h3>
+    <ul class="main-footer__socials socials">
+      <li class="socials__button">
+        <a class="socials__link socials__link--twitter" href="https://Twitter.com"><span class="visually-hidden">Twitter</span></a>
+      </li>
+      <li class="socials__button">
+        <a class="socials__link socials__link--facebook" href="https://Facebook.com"><span class="visually-hidden">Facebook</span></a>
+      </li>
+      <li class="socials__button">
+        <a class="socials__link socials__link--youtube" href="https://Youtube.com"><span class="visually-hidden">Youtube</span></a>
+      </li>
+    </ul>
+    <p class="main-footer__developerment">Разработано
+      <a  class="main-footer__developerment-link" href="https://htmlacademy.ru/intensive/adaptive"><span class="visually-hidden">html accademy</span></a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
