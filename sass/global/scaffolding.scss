@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'PT Sans', 'Lucida Grande', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  margin: 0;
+
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
