@@ -16,7 +16,7 @@ body {
 
   margin: 0;
 
-  color: #333333;
+  color: $text-color;
 }
 
 img {
@@ -25,4 +25,44 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: $color-accent;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: $color-accent--hover;
+}
+
+.button:active {
+  background-color: $color-accent--active;
+  color: rgba($color-link, 30%);
 }
