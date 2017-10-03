@@ -1,18 +1,16 @@
 .feature {
   @include list-reset;
-  &__item {
+    &__item {
     background-color: $color-muted;
     line-height: 21px;
-    
-    &--blue {
+      &--blue {
       color: $text-color--accent;
       background-color: $color-accent;
+      }
     }
-  }
-  
-  &__title {
+    &__title {
     font-size: 18px;
     line-height: 26px;
     font-weight: 700;
-  }
+    }
 }

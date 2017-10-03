@@ -1,10 +1,9 @@
 .details {
   @include list-reset;
   color: $text-color;
-  background-color: #ffffff;
-  
-  &__title {
+  background-color: #ffffff;  
+    &__title {
     font-size: 18px;
     line-height: 26px;
-  }
+    }
 }
