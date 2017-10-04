@@ -1,8 +1,10 @@
 .photo {
   &__headline {
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 700;
+    @include headline-font;
+  }
+
+  &__description {
+    text-align: center;
     text-transform: uppercase;
   }
 
@@ -18,5 +20,9 @@
   &__button-like {
     border: none;
     background-color: transparent;
+  }
+
+  &__like-counter {
+    font-weight: 700;
   }
 }
