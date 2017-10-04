@@ -4,8 +4,11 @@
   background-color: #ffffff;
 
   &__title {
-    font-size: 18px;
-    line-height: 26px;
+    @include headline-font;
+    text-align: left;
+  }
+
+  &__description {
     text-transform: uppercase;
   }
 }
