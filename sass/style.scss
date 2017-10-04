@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import "mixins.scss";
+@import "global/fonts.scss";
 @import "global/normalize.scss";
 @import "global/scaffolding.scss";
 @import "blocks/page-header.scss";
@@ -12,4 +13,7 @@
 @import "blocks/details.scss";
 @import "blocks/service-offer.scss";
 @import "blocks/main-footer.scss";
-@import "global/fonts.scss";
+@import "blocks/photo.scss";
+@import "blocks/video.scss";
+@import "blocks/player-nav.scss";
+@import "blocks/player-buttons";
