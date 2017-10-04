@@ -20,13 +20,14 @@
 
   background-color: $color-accent;
   border: none;
-}
 
-@mixin button-hover {
-  background-color: $color-accent--hover;
-}
+  &:hover,
+  &:focus {
+    background-color: $color-accent--hover;
+  }
 
-@mixin button-active {
-  background-color: $color-accent--active;
-  color: rgba($color-link, 30%);
+  &:active {
+    background-color: $color-accent--active;
+    color: rgba($color-link, 30%);
+  }
 }
