@@ -2,9 +2,19 @@ $color-accent: #81b3d2;
 $color-accent--hover: #669ec0;
 $color-accent--active: #5496bd;
 $color-muted: #eeeeee;
+$color-gray: #f2f2f2;
 
 $text-color: #000000;
 $text-color--accent: #ffffff;
 
 $color-link: #ffffff;
 $color-link--active: rgba(255, 255, 255, 0.3);
+
+$font-base: "PT Sans",
+  "Lucida Grande",
+  sans-serif;
+$size-base: 14px;
+$height-base: 24px;
+
+$size-title: 18px;
+$height-title: 26px;

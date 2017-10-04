@@ -3,3 +3,30 @@
   padding: 0;
   list-style: none;
 }
+
+@mixin headline-font {
+  font-size: $size-title;
+  line-height: $height-title;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@mixin button {
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: $color-accent;
+  border: none;
+}
+
+@mixin button-hover {
+  background-color: $color-accent--hover;
+}
+
+@mixin button-active {
+  background-color: $color-accent--active;
+  color: rgba($color-link, 30%);
+}
