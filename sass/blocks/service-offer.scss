@@ -1,0 +1,14 @@
+.service-offer {
+  &__title {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__button {
+    display: block;
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
