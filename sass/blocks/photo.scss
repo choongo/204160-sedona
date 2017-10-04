@@ -1,0 +1,22 @@
+.photo {
+  &__headline {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    @include list-reset;
+  }
+
+  &__title {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__button-like {
+    border: none;
+    background-color: transparent;
+  }
+}
