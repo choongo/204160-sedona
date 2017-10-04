@@ -1,8 +1,11 @@
 .service-offer {
   &__title {
+    @include headline-font;
     font-size: 21px;
-    line-height: 26px;
-    font-weight: 700;
+  }
+
+  &__description {
+    text-align: center;
     text-transform: uppercase;
   }
 
