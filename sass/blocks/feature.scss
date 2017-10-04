@@ -2,18 +2,18 @@
   @include list-reset;
 
   &__item {
-  background-color: $color-muted;
-  line-height: 21px;
+    background-color: $color-muted;
+    line-height: 21px;
 
     &--blue {
-    color: $text-color--accent;
-    background-color: $color-accent;
+      color: $text-color--accent;
+      background-color: $color-accent;
     }
   }
 
   &__title {
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
   }
 }
