@@ -1,0 +1,10 @@
+.page-main {
+  &__headline {
+    @include headline-font;
+  }
+
+  &__discription {
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

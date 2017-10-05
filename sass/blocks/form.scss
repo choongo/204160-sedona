@@ -1,0 +1,9 @@
+.form {
+  &__fieldset {
+    border: none;
+
+    & legend {
+      @include headline-font;
+    }
+  }
+}

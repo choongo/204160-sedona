@@ -1,0 +1,27 @@
+.user-info {
+  &__input-text,
+  &__input-tel,
+  &__input-email {
+    @include headline-font;
+    font-family: inherit;
+    background-color: $color-gray;
+    text-align: left;
+  }
+
+  &__input-text:hover::placeholder,
+  &__input-tel:hover::placeholder,
+  &__input-email:hover::placeholder {
+    background-color: $color-gray--strong;
+  }
+
+  &__input-text:active::placeholder,
+  &__input-tel:active::placeholder,
+  &__input-email:active::placeholder {
+    background-color: $color-wite;
+  }
+
+  &__label {
+    line-height: $height-title;
+    text-transform: uppercase;
+  }
+}
