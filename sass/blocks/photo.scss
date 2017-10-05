@@ -1,28 +1,26 @@
-.photo {
-  &__headline {
-    @include headline-font;
-  }
+.photo__headline {
+  @include headline-font;
+}
 
-  &__description {
-    text-align: center;
-    text-transform: uppercase;
-  }
+.photo__description {
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  &__list {
-    @include list-reset;
-  }
+.photo__list {
+  @include list-reset;
+}
 
-  &__title {
-    font-weight: 700;
-    text-transform: uppercase;
-  }
+.photo__title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
-  &__button-like {
-    border: none;
-    background-color: transparent;
-  }
+.photo__button-like {
+  border: none;
+  background-color: transparent;
+}
 
-  &__like-counter {
-    font-weight: 700;
-  }
+.photo__like-counter {
+  font-weight: 700;
 }

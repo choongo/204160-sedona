@@ -1,10 +1,8 @@
-.pop-up {
-  &__title {
-    @include headline-font;
-  }
+.pop-up__title {
+  @include headline-font;
+}
 
-  &__description {
-    text-align: center;
-    text-transform: uppercase;
-  }
+.pop-up__description {
+  text-align: center;
+  text-transform: uppercase;
 }

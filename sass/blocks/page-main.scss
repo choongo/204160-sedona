@@ -1,10 +1,8 @@
-.page-main {
-  &__headline {
-    @include headline-font;
-  }
+.page-main__headline {
+  @include headline-font;
+}
 
-  &__discription {
-    text-align: center;
-    text-transform: uppercase;
-  }
+.page-main__discription {
+  text-align: center;
+  text-transform: uppercase;
 }
