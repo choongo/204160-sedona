@@ -1,7 +1,5 @@
-.attractions {
-  &__label {
-    @include headline-font;
-    text-align: left;
-    text-transform: none;
-  }
+.attractions__label {
+  @include headline-font;
+  text-align: left;
+  text-transform: none;
 }

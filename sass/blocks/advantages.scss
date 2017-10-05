@@ -1,11 +1,9 @@
-.advantages {
-  &__headline {
-    @include headline-font;
-  }
+.advantages__headline {
+  @include headline-font;
+}
 
-  &__description {
-    line-height: 26px;
-    text-align: center;
-    text-transform: uppercase;
-  }
+.advantages__description {
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
 }

@@ -2,13 +2,13 @@
   @include list-reset;
   color: $text-color;
   background-color: #ffffff;
+}
 
-  &__title {
-    @include headline-font;
-    text-align: left;
-  }
+.details__title {
+  @include headline-font;
+  text-align: left;
+}
 
-  &__description {
-    text-transform: uppercase;
-  }
+.details__description {
+  text-transform: uppercase;
 }

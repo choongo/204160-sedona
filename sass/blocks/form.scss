@@ -1,9 +1,7 @@
-.form {
-  &__fieldset {
-    border: none;
+.form__fieldset {
+  border: none;
 
-    & legend {
-      @include headline-font;
-    }
+  .form legend {
+    @include headline-font;
   }
 }
