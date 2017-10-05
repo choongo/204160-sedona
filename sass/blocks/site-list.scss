@@ -2,23 +2,23 @@
   @include list-reset;
   @include headline-font;
   line-height: 40px;
+}
 
-  &__item {
-    @include button;
-    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid #000000;
+.site-list__item {
+  @include button;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #000000;
+}
+
+.site-list__link {
+  color: $color-link;
+
+  &:hover,
+  &:focus {
+    color: $color-link;
   }
 
-  &__link {
-    color: $color-link;
-
-    &:hover,
-    &:focus {
-      color: $color-link;
-    }
-
-    &:active {
-      color: $color-link--active;
-    }
+  &:active {
+    color: $color-link--active;
   }
 }

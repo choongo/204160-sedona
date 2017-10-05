@@ -1,27 +1,25 @@
-.user-info {
-  &__input-text,
-  &__input-tel,
-  &__input-email {
-    @include headline-font;
-    font-family: inherit;
-    background-color: $color-gray;
-    text-align: left;
-  }
+.user-info__input-text,
+.user-info__input-tel,
+.user-info__input-email {
+  @include headline-font;
+  font-family: inherit;
+  background-color: $color-gray;
+  text-align: left;
 
-  &__input-text:hover::placeholder,
-  &__input-tel:hover::placeholder,
-  &__input-email:hover::placeholder {
+  &:hover::placeholder,
+  &:hover::placeholder,
+  &:hover::placeholder {
     background-color: $color-gray--strong;
   }
 
-  &__input-text:active::placeholder,
-  &__input-tel:active::placeholder,
-  &__input-email:active::placeholder {
+  &:active::placeholder,
+  &:active::placeholder,
+  &:active::placeholder {
     background-color: $color-wite;
   }
+}
 
-  &__label {
-    line-height: $height-title;
-    text-transform: uppercase;
-  }
+.user-info__label {
+  line-height: $height-title;
+  text-transform: uppercase;
 }
