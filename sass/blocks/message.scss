@@ -1,7 +1,5 @@
-.message {
-  &__field {
-    @include headline-font;
-    text-align: left;
-    text-transform: none;
-  }
+.message__field {
+  @include headline-font;
+  text-align: left;
+  text-transform: none;
 }

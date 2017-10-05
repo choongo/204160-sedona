@@ -1,6 +1,4 @@
-.main-footer {
-  &__title {
-    @include headline-font;
-    font-size: 21px;
-  }
+.main-footer__title {
+  @include headline-font;
+  font-size: 21px;
 }
