@@ -1,0 +1,10 @@
+.pop-up {
+  &__title {
+    @include headline-font;
+  }
+
+  &__description {
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
