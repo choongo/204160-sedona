@@ -3,35 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
 
   <header class="page-header">
     <nav class="main-nav">
       <a href="index.html" class="main-nav__logo logo">
-          <img class="logo__image" src="//placehold.it/102x83" alt="Логотип" width="102" height="83">
+          <img class="logo__image" src="img/logo-sedona-mobile.svg" alt="Логотип" width="102" height="83">
         </a>
       <button class="main-nav__toggle" type="button">
-          Открыть меню
-        </button>
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
       <ul class="main-nav__list site-list">
-        <li class="site-list__item site-list__item--active">
-          <a href="index.html">Главная</a>
+        <li class="site-list__item">
+          <a class="site-list__link" href="index.html">Главная</a>
+        </li>
+        <li class="site-list__item ">
+          <a class="site-list__link"> Фото и видео</a>
         </li>
         <li class="site-list__item">
-          <a> Фото и видео</a>
+          <a class="site-list__link" href="form.html">Форма отзыва</a>
         </li>
-        <li class="site-list__item">
-          <a href="form.html">Форма отзыва</a>
-        </li>
-        <li class="site-list__item">
-          <a href="https://htmlacademy.ru/intensive/adaptive">Html academy</a>
+        <li class="site-list__item ">
+          <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">Html academy</a>
         </li>
       </ul>
     </nav>
     <section class="intro">
       <h1 class="visually-hidden">Красивые фото Седона и окресности</h1>
-      <p class="intro__headline"> Sedona </p>
+      <img class="intro__headline" src="" alt="Sedona"><span class="visually-hidden">Sedona</span>
     </section>
   </header>
   <main class="page-main">
@@ -40,7 +41,7 @@
       <p class="photo__description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
       <ul class="photo__list">
         <li class="photo__item">
-          <a class="photo__link-image" href="#"><img class="photo__image" src="#" alt="Неродные просторы, Седона, штат Аризона" width="280" height="280"></a>
+          <a class="photo__link-image" href="#"><img class="photo__image" src="img/photo-sunset-mobile@1x.jpg" alt="Неродные просторы, Седона, штат Аризона" width="280" height="280"></a>
           <p class="photo__title">Неродные просторы</p>
           <p class="photo__author">Автор фото: Борис</p>
           <button class="photo__button-like" type="button">
@@ -49,7 +50,7 @@
             </button>
         </li>
         <li class="photo__item">
-          <a class="photo__link-image" href="#"><img class="photo__image" src="#" alt="Местная растительность, Седона, штат Аризона" width="280" height="280"></a>
+          <a class="photo__link-image" href="#"><img class="photo__image" src="img/photo-cactus-mobile@1x.jpg" alt="Местная растительность, Седона, штат Аризона" width="280" height="280"></a>
           <p class="photo__title">Местная растительность</p>
           <p class="photo__author">Автор фото: Сергей</p>
           <button class="photo__button-like" type="button">
@@ -58,7 +59,7 @@
             </button>
         </li>
         <li class="photo__item">
-          <a class="photo__link-image" href="#"><img class="photo__image" src="#" alt="Дорога на север" width="280" height="280"></a>
+          <a class="photo__link-image" href="#"><img class="photo__image" src="img/photo-roads-mobile@1x.jpg" alt="Дорога на север" width="280" height="280"></a>
           <p class="photo__title">Дорога на север, Седона, штат Аризона</p>
           <p class="photo__author">Автор фото: Петр</p>
           <button class="photo__button-like" type="button">
@@ -67,7 +68,7 @@
             </button>
         </li>
         <li class="photo__item">
-          <a class="photo__link-image" href="#"><img class="photo__image" src="#" alt="Мост дьявола" width="280" height="280"></a>
+          <a class="photo__link-image" href="#"><img class="photo__image" src="img/photo-bridge-mobile@1x.jpg" alt="Мост дьявола" width="280" height="280"></a>
           <p class="photo__title">Мост дьявола, Седона, штат Аризона</p>
           <p class="photo__author">Автор фото: Антон</p>
           <button class="photo__button-like" type="button">
@@ -83,7 +84,7 @@
       <p class="video__subtitle">
         Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
       </p>
-      <video class="video__player" poster="#" preload="metadata" width="320" height="201" autoplay>
+      <video class="video__player" poster="img/video-mobile@1x.jpg" preload="metadata" width="320" height="201" autoplay>
         <source src="video.mp4" type="video/mp4">
         <source src="video.ogv" type="video/ogg">
         <source src="video.webm" type="video/webm">
@@ -104,7 +105,7 @@
     </section>
   </main>
   <footer class="main-footer">
-    <h3 class="main-footer__title"><a class="main-footer__hashtag" href="https://www.instagram.com">#visitsedona</a></h3>
+    <h3 class="main-footer__title">#visitsedona</h3>
     <ul class="main-footer__socials socials">
       <li class="socials__button">
         <a class="socials__link socials__link--twitter" href="https://Twitter.com"><span class="visually-hidden">Twitter</span></a>

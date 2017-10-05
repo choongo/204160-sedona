@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-base;
+  font-size: $size-base;
+  font-weight: 400;
+  line-height: $height-base;
+
+  margin: 0;
+  padding: 0;
+
+  color: $text-color;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}

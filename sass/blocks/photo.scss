@@ -1,0 +1,26 @@
+.photo__headline {
+  @include headline-font;
+}
+
+.photo__description {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.photo__list {
+  @include list-reset;
+}
+
+.photo__title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.photo__button-like {
+  border: none;
+  background-color: transparent;
+}
+
+.photo__like-counter {
+  font-weight: 700;
+}

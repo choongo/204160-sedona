@@ -1,0 +1,23 @@
+.feature {
+  @include list-reset;
+}
+
+.feature__title {
+  @include headline-font;
+}
+
+.feature__number,
+.feature__discription {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.feature__item {
+  background-color: $color-muted;
+  line-height: 21px;
+
+  &--blue {
+    color: $text-color--accent;
+    background-color: $color-accent;
+  }
+}

@@ -1,0 +1,14 @@
+.details {
+  @include list-reset;
+  color: $text-color;
+  background-color: #ffffff;
+}
+
+.details__title {
+  @include headline-font;
+  text-align: left;
+}
+
+.details__description {
+  text-transform: uppercase;
+}

@@ -1,0 +1,9 @@
+.advantages__headline {
+  @include headline-font;
+}
+
+.advantages__description {
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
