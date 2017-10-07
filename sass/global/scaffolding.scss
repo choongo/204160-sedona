@@ -10,9 +10,9 @@ html {
 
 body {
   font-family: $font-base;
-  font-size: $size-base;
+  font-size: $font-size--normal;
   font-weight: 400;
-  line-height: $height-base;
+  line-height: $line-height--normal;
 
   margin: 0;
   padding: 0;

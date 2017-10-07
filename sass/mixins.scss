@@ -5,8 +5,8 @@
 }
 
 @mixin headline-font {
-  font-size: $size-title;
-  line-height: $height-title;
+  font-size: $font-size--big;
+  line-height: $line-height--big;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
