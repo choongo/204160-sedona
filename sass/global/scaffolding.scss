@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  min-width: 320px;
   font-family: $font-base;
   font-size: $font-size--normal;
   font-weight: 400;
