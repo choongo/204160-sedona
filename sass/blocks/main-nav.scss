@@ -1,1 +1,27 @@
-//Стили для .main-nav
+.main-nav {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-nav__logo {
+  height: 57px;
+
+  order: 2;
+}
+
+.main-nav__toggle {
+  margin-right: 20px;
+
+  order: 2;
+  align-self: flex-end;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    display: none;
+  }
+}
