@@ -6,6 +6,10 @@
   .feature {
     display: flex;
     flex-direction: row;
+
+    width: 768px;
+    margin: 0 auto;
+
     flex-wrap: wrap;
   }
 }
