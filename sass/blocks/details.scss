@@ -4,6 +4,24 @@
   background-color: #ffffff;
 }
 
+@media (min-width: $tablet-width) {
+  .details {
+    display: flex;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .details__item {
+    flex-basis: 256px;
+  }
+}
+
+@media (min-width: $descktop-width) {
+  .details__item {
+    flex-basis: 400px;
+  }
+}
+
 .details__title {
   @include headline-font;
   text-align: left;
