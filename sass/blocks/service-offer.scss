@@ -1,3 +1,15 @@
+.service-offer {
+  width: 280px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .service-offer {
+    width: 460px;
+    margin: 0 auto;
+  }
+}
+
 .service-offer__title {
   @include headline-font;
   font-size: 21px;
