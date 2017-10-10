@@ -8,17 +8,16 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-
 }
 
 @media (min-width: $tablet-width) {
-  .feature__item{
+  .feature__item {
     flex-basis: 256px;
   }
 }
 
 @media (min-width: $descktop-width) {
-  .feature__item{
+  .feature__item {
     flex-basis: 400px;
   }
 }
@@ -41,14 +40,11 @@
   }
 }
 
-
 @media (min-width: $descktop-width) {
   .feature__wrapper {
     width: 290px;
   }
 }
-
-
 
 .feature__title {
   @include headline-font;
