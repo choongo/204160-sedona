@@ -14,6 +14,12 @@
   }
 }
 
+@media (min-width: $descktop-width) {
+  .feature {
+    width: 1200px;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .feature__item {
     flex-basis: 256px;
