@@ -1,4 +1,20 @@
 .socials {
   @include list-reset;
+  display: flex;
+
+  width: 151px;
+  margin: 0 auto;
+
+  justify-content: space-between;
+}
+
+.socials__button {
   @include button;
+  display: flex;
+
+  width: 46px;
+  height: 48px;
+
+  justify-content: center;
+  align-content: center;
 }

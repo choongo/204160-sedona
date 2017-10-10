@@ -1,12 +1,20 @@
 .service-offer {
   width: 280px;
+  min-height: 289px;
   margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
   .service-offer {
     width: 460px;
+    min-height: 318px;
     margin: 0 auto;
+  }
+}
+
+@media (min-width: $descktop-width) {
+  .service-offer {
+    min-height: 331px;
   }
 }
 
@@ -22,6 +30,7 @@
 
 .service-offer__button {
   display: block;
+
   font-size: 21px;
   line-height: 26px;
 }
