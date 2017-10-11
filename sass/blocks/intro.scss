@@ -1,18 +1,36 @@
 .intro {
+  width: 320px;
+  min-height: 158px;
+
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 158px;
 }
 
-@media (min-width: $descktop-width) {
+.intro__headline {
+  display: block;
+
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 85px;
+}
+
+@media (min-width: $tablet-width) {
   .intro {
-    min-height: 291px;
+    width: 768px;
+  }
+
+  .ntro__headline {
+    width: 461px;
+    padding-top: 78px;
+    padding-bottom: 90px;
   }
 }
 
 @media (min-width: $descktop-width) {
   .intro {
+    width: 1200px;
     min-height: 300px;
   }
 }
