@@ -1,16 +1,20 @@
 @mixin list-reset {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
+
 @mixin headline-font {
   font-size: $font-size--big;
-  line-height: $line-height--big;
   font-weight: 700;
-  text-transform: uppercase;
+  line-height: $line-height--big;
+
   text-align: center;
+  text-transform: uppercase;
 }
+
 
 @mixin button {
   text-align: center;
