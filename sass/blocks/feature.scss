@@ -1,59 +1,12 @@
 .feature {
   @include list-reset;
-}
-
-@media (min-width: $tablet-width) {
-  .feature {
-    display: flex;
-    flex-direction: row;
-
-    width: 768px;
-    margin: 0 auto;
-
-    flex-wrap: wrap;
-  }
-}
-
-@media (min-width: $descktop-width) {
-  .feature {
-    width: 1200px;
-  }
-}
-
-@media (min-width: $tablet-width) {
-  .feature__item {
-    flex-basis: 256px;
-  }
-}
-
-@media (min-width: $descktop-width) {
-  .feature__item {
-    flex-basis: 400px;
-  }
-}
-
-@media (min-width: $tablet-width) {
-  .feature__conteiner {
-    display: flex;
-    flex-direction: row;
-  }
+  width: 320px;
+  margin: 0 auto;
 }
 
 .feature__wrapper {
   width: 280px;
   margin: 0 auto;
-}
-
-@media (min-width: $tablet-width) {
-  .feature__wrapper {
-    width: 170px;
-  }
-}
-
-@media (min-width: $descktop-width) {
-  .feature__wrapper {
-    width: 290px;
-  }
 }
 
 .feature__title {
@@ -66,16 +19,9 @@
   text-transform: uppercase;
 }
 
-@media (min-width: $tablet-width) {
-  .feature__photo {
-    width: 512px;
-  }
-}
-
-@media (min-width: $descktop-width) {
-  .feature__photo {
-    width: 800px;
-  }
+.feature__photo {
+  width: 320px;
+  margin: 0 auto;
 }
 
 .feature__item {
@@ -89,7 +35,67 @@
 }
 
 @media (min-width: $tablet-width) {
+  .feature {
+    display: flex;
+    flex-direction: row;
+
+    width: 768px;
+    margin: 0 auto;
+
+    flex-wrap: wrap;
+  }
+
+  .feature__item {
+    flex-basis: 256px;
+  }
+
+  .feature__container {
+    display: flex;
+    flex-direction: row;
+    width: 758px;
+
+    &:nth-of-type(even) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  .feature__wrapper {
+    width: 170px;
+    margin: 0 43px;
+  }
+
+  .feature__photo {
+    width: 512px;
+  }
+
   .feature__item--blue {
-    flex-basis: 100%;
+    width: 768px;
+  }
+}
+
+@media (min-width: $descktop-width) {
+  .feature {
+    width: 1200px;
+  }
+
+  .feature__item {
+    flex-basis: 400px;
+  }
+
+  .feature__container {
+    width: 1200px;
+  }
+
+  .feature__wrapper {
+    width: 290px;
+    margin: 0 55px;
+  }
+
+  .feature__photo {
+    width: 800px;
+  }
+
+  .feature__item--blue {
+    width: 1200px;
   }
 }
