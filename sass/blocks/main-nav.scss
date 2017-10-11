@@ -17,7 +17,22 @@
 }
 
 @media (min-width: $tablet-width) {
+  .main-nav__logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    width: 103px;
+  }
+
   .main-nav__toggle {
     display: none;
+  }
+}
+
+@media (min-width: $descktop-width) {
+  .main-nav__logo {
+    width: 188px;
   }
 }

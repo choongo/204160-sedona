@@ -1,1 +1,16 @@
-//Стили для .page-header
+.page-header {
+  width: 320px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    width: 768px;
+  }
+}
+
+@media (min-width: $descktop-width) {
+  .page-header {
+    width: 1200px;
+  }
+}
